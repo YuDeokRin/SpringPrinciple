@@ -4,7 +4,7 @@
 
 # Spring
 
-![Untitled](Spring%20%E1%84%92%E1%85%A2%E1%86%A8%E1%84%89%E1%85%B5%E1%86%B7%20%E1%84%8B%E1%85%AF%E1%86%AB%E1%84%85%E1%85%B5%20cd369210ea40477ab5312f9f6b356b0a/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/56623911/138818950-7b2fa13f-3754-48b1-af48-71edec9ffffc.png)
 
 ## Spring framwork
 
@@ -49,9 +49,10 @@
 
 ## 다형성
 
-![Untitled](Spring%20%E1%84%92%E1%85%A2%E1%86%A8%E1%84%89%E1%85%B5%E1%86%B7%20%E1%84%8B%E1%85%AF%E1%86%AB%E1%84%85%E1%85%B5%20cd369210ea40477ab5312f9f6b356b0a/Untitled%201.png)
+![Untitled 1](https://user-images.githubusercontent.com/56623911/138818991-d0298832-8b28-409e-a36b-6910a433ffd8.png)
 
-![Untitled](Spring%20%E1%84%92%E1%85%A2%E1%86%A8%E1%84%89%E1%85%B5%E1%86%B7%20%E1%84%8B%E1%85%AF%E1%86%AB%E1%84%85%E1%85%B5%20cd369210ea40477ab5312f9f6b356b0a/Untitled%202.png)
+![Untitled 2](https://user-images.githubusercontent.com/56623911/138819002-41c4f26c-3cd5-4b5a-99b6-00231f126f6d.png)
+
 
 ## 역할과 구현을 분리
 
@@ -84,7 +85,7 @@
 - 다형성으로 인터페이스를 구현한 객체를 실행 시점에 유연하게 변경할 수 있다.
 - 물론 클래스 상속 관계도 다형성, 오버라이딩 적용가능
 
-![Untitled](Spring%20%E1%84%92%E1%85%A2%E1%86%A8%E1%84%89%E1%85%B5%E1%86%B7%20%E1%84%8B%E1%85%AF%E1%86%AB%E1%84%85%E1%85%B5%20cd369210ea40477ab5312f9f6b356b0a/Untitled%203.png)
+![Untitled 3](https://user-images.githubusercontent.com/56623911/138819018-88f3ab88-b098-4f7a-aed2-fe72c000b2eb.png)
 
 ### 다형성의 본질
 

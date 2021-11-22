@@ -1,9 +1,12 @@
 package hello.core.member;
 
 public class MemberServiceImpl implements MemberService{
-
+    //관심사 분리 하고 appconfig를 만들 어 준 후
     private final MemberRepository memberRepository;
+    //관심사 분리 하고 appconfig를 만들어 주기 전 : private final MemberRepository memberRepository = new MemoryMemberRepository();
 
+
+    // 생성자 생성
     public MemberServiceImpl(MemberRepository memberRepository) {
         this.memberRepository = memberRepository;
     }

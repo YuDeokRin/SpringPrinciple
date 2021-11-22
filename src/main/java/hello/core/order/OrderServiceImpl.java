@@ -4,11 +4,16 @@ import hello.core.discount.DiscountPolicy;
 import hello.core.member.Member;
 import hello.core.member.MemberRepository;
 
+
 public class OrderServiceImpl implements OrderService{
 
+    //DIP를 지키고 있다. 즉, 인터페이스에게만 의존을 하고 있다고 하는 것이다.
 
-    private final MemberRepository memberRepository;
-    private final DiscountPolicy discountPolicy;
+    // priavate final MemberRepository memberRepository = new MemoryMemberRepository();
+    private final DiscountPolicy discountPolicy; // DiscountPolicy 인터페이스에 의존
+
+    // private final DiscountPolicy discountPolicy = new FixDiscountPolicy();
+    private final MemberRepository memberRepository; //MemberRepository 인터페이스에 의존
 
     public OrderServiceImpl(MemberRepository memberRepository, DiscountPolicy discountPolicy) {
         this.memberRepository = memberRepository;

@@ -9,8 +9,14 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 
 public class MemberApp {
     public static void main(String[] args) {
-//        AppConfig appConfig = new AppConfig();
-//        MemberService memberService = appConfig.memberService();
+//       AppConfig appConfig = new AppConfig();
+//       MemberService memberService = appConfig.memberService();
+//      MemberService memberService = new MemberServiceImpl();//
+
+//      관심사 분리 변경 전
+
+//      Member member = new Member(1L, "memberA", Grade.VIP);
+//      memberService.join(member);
 
         //ApplicationContext를 스프링 컨테이너라 한다.
         //스프링 컨테이너 생성

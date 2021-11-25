@@ -10,10 +10,11 @@ public class MemberServiceTest {
 
     MemberService memberService;
 
+    //실행 전에
     @BeforeEach
     public void beforeEach(){
         AppConfig appconfig = new AppConfig();
-            memberService = appconfig.memberService();
+        memberService = appconfig.memberService();
     }
     @Test
     void join(){

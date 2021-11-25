@@ -1,5 +1,6 @@
-package hello.core;
+package hello.core.order;
 
+import hello.core.AppConfig;
 import hello.core.member.Grade;
 import hello.core.member.Member;
 import hello.core.member.MemberService;
@@ -16,8 +17,10 @@ public class OrderApp {
 //        MemberService memberService = appConfig.memberService();
 //        OrderService orderService = appConfig.orderService();
 
+
+
         ApplicationContext applicationContext = new AnnotationConfigApplicationContext(AppConfig.class);
-        MemberService memberService = applicationContext.getBean("memberService", MemberService.class);  // name "스프링 빈 메소드명", 타입입        OrderService orderService = applicationContext.getBean("orderService", OrderService.class);
+        MemberService memberService = applicationContext.getBean("mms", MemberService.class);  // name "스프링 빈 메소드명", 타입입        OrderService orderService = applicationContext.getBean("orderService", OrderService.class);
         OrderService orderService = applicationContext.getBean("orderService", OrderService.class);
 
         Long memberId = 1L;
@@ -25,8 +28,6 @@ public class OrderApp {
         memberService.join(member);
 
         Order order = orderService.createOrder(memberId, "itemA", 20000);
-
-
         System.out.println("order = " + order);
     }
 }

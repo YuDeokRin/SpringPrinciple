@@ -22,9 +22,11 @@ public class AppConfig {
 
     // 각 메서드에 @Bean을 붙여준다. 이렇게하면 스프링 컨테이너에 스프링 빈으로 등록한다.
 
-    @Bean
+    @Bean(name = "mms")
     public MemberService memberService(){ // key 는 빈이름(memberService ) 되고 value(값)는 빈의 객체(MemberServiceImpl)가 된다.
         return new MemberServiceImpl(memberRepository()); // 객체(new 인스턴스)가 들어간다 -> 생성자 주입
+
+
     }
 
 

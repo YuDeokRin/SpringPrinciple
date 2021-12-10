@@ -1,6 +1,6 @@
 # BeanFactory와 ApplicationContext
 
-![Untitled](BeanFactory%E1%84%8B%E1%85%AA%20ApplicationContext%20b7dafa8f59a74b369187f9a2adc27010/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/56623911/145540864-2c40c35c-f27a-4ccb-a446-87e519ea7a28.png)
 
 ## BeanFactory
 
@@ -16,7 +16,9 @@
 
 ApplicationContext가 제공하는 부가기능
 
-![Untitled](BeanFactory%E1%84%8B%E1%85%AA%20ApplicationContext%20b7dafa8f59a74b369187f9a2adc27010/Untitled%201.png)
+![Untitled 1](https://user-images.githubusercontent.com/56623911/145540912-9a952af8-bae2-4c16-932c-548ad4bc6c0f.png)
+
+
 
 - 메시지소스를 활용한 국제화 기능
     - 예를 들어서 한국에서 들어오면 한국어로, 영어권에서 들어오면 영어로 출력
@@ -29,4 +31,5 @@ ApplicationContext가 제공하는 부가기능
 
 BeanFactory 와 ApplicationContext차이
 
-![Untitled](BeanFactory%E1%84%8B%E1%85%AA%20ApplicationContext%20b7dafa8f59a74b369187f9a2adc27010/Untitled%202.png)
+![Untitled 2](https://user-images.githubusercontent.com/56623911/145540926-4bf90c4e-89c7-443d-ae95-df6559101c38.png)
+

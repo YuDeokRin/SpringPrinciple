@@ -155,7 +155,6 @@ Open/closed principle
 - 이 문제를 어떻게 해결해야 하나?
 - 객체를 생성하고, 연관관계를 맺어주는 별도의 조립, 설정자가 필요하다.
 
-
 ### LSP : 리스코프 치환 원칙
 Liskov substitution principle
 
@@ -184,3 +183,4 @@ Dependency inversion principle
 - MemberService 클라이언트가 구현 클래스를 직접 선택
   -MemberRepository m = new MemoryMebmerRepository();
 - DIP 위반
+- 

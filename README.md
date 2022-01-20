@@ -183,4 +183,5 @@ Dependency inversion principle
 - MemberService 클라이언트가 구현 클래스를 직접 선택
   -MemberRepository m = new MemoryMebmerRepository();
 - DIP 위반
-- 
+
+
